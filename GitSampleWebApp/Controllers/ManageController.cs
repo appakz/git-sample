@@ -22,6 +22,7 @@ namespace GitSampleWebApp.Controllers
         public ManageController(ApplicationUserManager userManager)
         {
             UserManager = userManager;
+            //jesse big new feature yay!
         }
 
         private ApplicationUserManager _userManager;
