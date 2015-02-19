@@ -23,6 +23,7 @@ namespace GitSampleWebApp.Controllers
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
+            //jesse master bug fix 01
             UserManager = userManager;
             SignInManager = signInManager;
         }
