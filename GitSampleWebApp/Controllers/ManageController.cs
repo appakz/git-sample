@@ -16,6 +16,7 @@ namespace GitSampleWebApp.Controllers
         public ManageController()
         {
             //jesse commit 001 on master
+            //jesse commit 001 on master
         }
 
         public ManageController(ApplicationUserManager userManager)
