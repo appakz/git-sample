@@ -35,6 +35,7 @@ namespace GitSampleWebApp.Controllers
             }
             private set
             {
+                //another bug fix three
                 _userManager = value;
             }
         }
