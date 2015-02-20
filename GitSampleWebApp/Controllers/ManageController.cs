@@ -28,6 +28,7 @@ namespace GitSampleWebApp.Controllers
         private ApplicationUserManager _userManager;
         public ApplicationUserManager UserManager
         {
+            //bug fix number two
             get
             {
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
