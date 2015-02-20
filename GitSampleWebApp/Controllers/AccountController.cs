@@ -15,6 +15,9 @@ namespace GitSampleWebApp.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        /// <summary>
+        /// User two adding comments1!!!!
+        /// </summary>
         private ApplicationUserManager _userManager;
 
         public AccountController()
