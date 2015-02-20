@@ -26,7 +26,7 @@ namespace GitSampleWebApp.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            //another user adding to master
             return View();
         }
     }
